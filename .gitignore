@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.python-version
+*.pyc
+
+# Local data, training runs, and detector weights (several are over GitHub's 100 MB limit)
+data/
+datasets/
+runs/
+weights/
+yolov8/
+yolov26x/
+*.pt
+
+# Videos: keep only the YOLOv26x demo
+*.mp4
+outputs/*
+!outputs/08fd33_yolov26x_h264.mp4
+
+*:Zone.Identifier
