@@ -19,5 +19,3 @@ python run.py \
 ```
 
 The YOLOv26x weights are not in this repo. GitHub rejects files over 100 MB, and `best.pt` is 113 MB. Place the checkpoint at `yolov26x/best.pt`. The pitch-keypoint weights go in `weights/`.
-
-The notebook `notebooks/yolov8x_pipeline.ipynb` walks through the same pipeline.
